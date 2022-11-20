@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Albinamkh\MonthTranslator;
-
 
 class MonthTranslator
 {
@@ -16,6 +14,5 @@ class MonthTranslator
     {
         return $this->_monthsList[$monthNumber];
     }
-
 
 }

@@ -6,7 +6,7 @@
 ## Установка
 
 ```bash
-$ composer require albinamkh/capitalize
+$ composer require albinamkh/month-translator
 ```
 
 ## Использование
