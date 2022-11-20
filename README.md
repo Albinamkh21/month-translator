@@ -1,7 +1,7 @@
-# Capitalize string
+# Month name translator
 
 ## Требования
-- PHP 7.0
+- PHP 7.4
 
 ## Установка
 
@@ -12,5 +12,5 @@ $ composer require albinamkh/capitalize
 ## Использование
 
 ```php
-$processor = new StringProcessor();
-echo $processor->capitalize('test'); // Test
+$monthName = new MonthTranslator();
+echo $monthName->translate(2,'ru'); // Февраль
